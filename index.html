@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>My Apps,Games,Bots</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
@@ -11,8 +14,27 @@
     </section>
     <section>
         <h1>My Games</h1>
-        <a href="https://edu.cospaces.io/Studio/Space/CjdFuzkNnwkwyOZu"><img src="https://www.vectornator.io/blog/content/images/2022/09/Cover-How-to-draw-a-car.png" alt=""></a>
-        <a href="https://edu.cospaces.io/Studio/Space/O8obs8wXKTRTv7LF"><img src="https://img.freepik.com/free-photo/underwater-photo-pool_1219-17.jpg?w=2000" alt=""></a>
+        <div id="myCarousel" class="carousel slide">
+        <center>
+       <div class="carousel-inner">
+        <div class="item active">
+            <a href="https://edu.cospaces.io/Studio/Space/CjdFuzkNnwkwyOZu"><img src="https://www.vectornator.io/blog/content/images/2022/09/Cover-How-to-draw-a-car.png" width="320" 
+                height="200"></a><p>Car Parking</p><br>
+        </div>
+        <div class="item">
+            <a href="https://edu.cospaces.io/Studio/Space/O8obs8wXKTRTv7LF"><img src="https://img.freepik.com/free-photo/underwater-photo-pool_1219-17.jpg?w=2000" width="320"
+                height="200"></a><p>Find The Hidden Treasure</p>
+        </div>
+       </div>
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-cheveron-left"></span>
+       </a>
+
+       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-cheveron-right"></span>
+       </a>
+        </center>
+    </div>
     </section>
     <section>
         <h1>My Bots</h1>
