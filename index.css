@@ -1,0 +1,27 @@
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my_nav_bar{
+    position:sticky;
+    top: 0;
+}
+
+#video{
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.travel_mainDiv {
+border: 1px solid lightgrey;
+}
+
+.travelmainDiv img {
+    width: 100%;
+}
+
+.travel_mainDiv h3 , .travelmainDiv img {
+    margin: 20px; 
+}
+
